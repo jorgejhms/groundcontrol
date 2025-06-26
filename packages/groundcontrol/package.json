@@ -34,14 +34,14 @@
     "astro",
     "drizzle"
   ],
-  "author": "",
+  "author": "Jorge Meneses <jorgejhms@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/groundcontrol.git"
+    "url": "https://github.com/jorgejhms/groundcontrol.git"
   },
   "bugs": {
-    "url": "https://github.com/your-username/groundcontrol/issues"
+    "url": "https://github.com/jorgejhms/groundcontrol/issues"
   },
-  "homepage": "https://github.com/your-username/groundcontrol#readme"
+  "homepage": "https://github.com/jorgejhms/groundcontrol#readme"
 }
