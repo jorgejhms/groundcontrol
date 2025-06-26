@@ -1,0 +1,24 @@
+{
+  "name": "groundcontrol-monorepo",
+  "version": "0.0.1",
+  "private": true,
+  "description": "A modern headless CMS built with Astro and Drizzle ORM",
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm --filter playground dev",
+    "test": "pnpm -r test",
+    "lint": "pnpm -r lint"
+  },
+  "keywords": [
+    "cms",
+    "headless-cms",
+    "astro",
+    "drizzle"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}

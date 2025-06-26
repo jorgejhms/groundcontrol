@@ -1,0 +1,47 @@
+{
+  "name": "groundcontrol",
+  "version": "0.0.1",
+  "description": "A modern headless CMS built with Astro and Drizzle ORM",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./integration": "./src/integration.ts"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@astrojs/node": "^6.0.0",
+    "astro": "^3.0.0",
+    "drizzle-orm": "^0.28.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "tsup": "^7.2.0",
+    "vitest": "^0.34.0",
+    "@types/node": "^20.0.0"
+  },
+  "keywords": [
+    "cms",
+    "headless-cms",
+    "astro",
+    "drizzle"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/groundcontrol.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/groundcontrol/issues"
+  },
+  "homepage": "https://github.com/your-username/groundcontrol#readme"
+}
